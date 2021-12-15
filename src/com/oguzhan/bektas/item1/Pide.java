@@ -1,4 +1,4 @@
-package com.oguzhan.bektas;
+package com.oguzhan.bektas.item1;
 
 public class Pide extends Food {
 }

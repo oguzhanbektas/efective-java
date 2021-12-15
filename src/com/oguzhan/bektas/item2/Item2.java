@@ -1,7 +1,4 @@
-package com.oguzhan.bektas.items;
-
-import com.oguzhan.bektas.Starbucks;
-import com.oguzhan.bektas.StarbucksBuilder;
+package com.oguzhan.bektas.item2;
 
 public class Item2 {
 

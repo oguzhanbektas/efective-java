@@ -1,7 +1,4 @@
-package com.oguzhan.bektas.items;
-
-import com.oguzhan.bektas.Food;
-import com.oguzhan.bektas.Team;
+package com.oguzhan.bektas.item1;
 
 public class Item1 {
 
