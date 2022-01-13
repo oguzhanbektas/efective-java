@@ -26,6 +26,7 @@ public class Item4 {
 
         DenemeNormal d = new DenemeNormal();
         // Bu şekilde oluşturabiliryor.
+        //DenemeNormal de extends olarak DenemeAbs yi alıyor yani metodlarına erişme imkanımız oluyor.
 
         Enum.topla();
 
