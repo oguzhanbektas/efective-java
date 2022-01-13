@@ -1,10 +1,9 @@
-package com.oguzhan.bektas.item6;
+package com.oguzhan.bektas.efectivejava.item6;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.LongStream;
 
-public class item6 {
+public class Item6 {
 
     private static long topla() {
         //Wrapper sınıfı
