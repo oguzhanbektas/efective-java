@@ -18,6 +18,19 @@ public class Item6 {
         return sum;
     }
 
+    private static long toplaWrapper() {
+        //Wrapper sınıfı
+        Long sum = 0L;
+        //Primitive sınıfı
+//        long sum = 0L;
+
+        for (int i = 0; i < 150; i++) {
+            sum += i;
+        }
+
+        return sum;
+    }
+
     /**
      * Avoid craeting unncecessary Objects
      * Gereksiz Object yaratmamak.Çok fazla kişiye hizmet eden uygulamanız var ise gereksiz obje yaratımı çok ise
@@ -39,13 +52,17 @@ public class Item6 {
         long start = System.nanoTime();
         topla();
         long end = System.nanoTime();
-        System.out.println(end - start);
+        System.out.println("Tür Dönüşümsüz --> " + (end - start));
+
+        long startWrapper = System.nanoTime();
+        toplaWrapper();
+        long endWrapper = System.nanoTime();
+        System.out.println("Tür Dönüşümlü --> " + (endWrapper - startWrapper));
 
         //Wrapper yani Long daha uzun sürüyor.
 
 
         // Autoboxing-Unboxing
-
         ArrayList<Integer> integers = new ArrayList<>();
         for (int i = 0; i < 10; i++) {
             integers.add(i);
@@ -59,10 +76,15 @@ public class Item6 {
         int sum2 = 0;
         for (Integer i : li) {
 
+//            if (i % 2 == 0) {
             if (i.intValue() % 2 == 0) {
 
             }
         }
+
+        int a = 2;
+
+        Integer d = Integer.valueOf(2);
 
     }
 }
