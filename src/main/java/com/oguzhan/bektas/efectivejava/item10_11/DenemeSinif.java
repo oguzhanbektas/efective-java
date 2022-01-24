@@ -1,4 +1,4 @@
-package com.oguzhan.bektas.efectivejava.item10;
+package com.oguzhan.bektas.efectivejava.item10_11;
 
 public class DenemeSinif {
     private int d1, d2;

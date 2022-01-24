@@ -1,4 +1,4 @@
-package com.oguzhan.bektas.efectivejava.item10;
+package com.oguzhan.bektas.efectivejava.item10_11;
 
 public class Item10 {
 
@@ -19,6 +19,10 @@ public class Item10 {
      * dönüş türünde değişiklik olmaz
      * null control x.equals(null)
      * false olmalı
+     *
+     * Hashcode
+     *
+     *
      */
 
     public static void main(String[] args) {
