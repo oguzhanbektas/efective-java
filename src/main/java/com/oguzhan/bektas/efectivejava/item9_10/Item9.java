@@ -1,4 +1,4 @@
-package com.oguzhan.bektas.efectivejava.item9;
+package com.oguzhan.bektas.efectivejava.item9_10;
 
 public class Item9 {
 

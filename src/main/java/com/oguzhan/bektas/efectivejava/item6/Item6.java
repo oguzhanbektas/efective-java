@@ -32,6 +32,16 @@ public class Item6 {
     }
 
     /**
+     * Java Boxing Autoboxing Unboxing
+     * Wrapper --> Java’da 8 adet primitive değişken bulunmaktadır.Java’da Wrapper’lar konusu gelince aklımıza gelmesi gereken şey primitive değişkenlerimizin Class’larıdır.
+     * AUTOBOXING --> Primitive bir değişkenin wrapper sınıf tipine otomatik olarak dönüştürme işlemine denir.
+     * Integer number = 100; //Wrapper Class <- pritimive variable
+     * BOXING --> Primitive değişkeni wrapper sınıfına dönüştürme işlemidir fakat burada constructor yardımı ile gerçekleştirmiş olacağız.
+     * Integer number = new Integer(100); //Integer Constructor yardımı ile gönderdik.
+     * UNBOXING --> Bu işlemi Integer Sınıfındaki intValue metotu ile gerçekleştireceğiz.Bu metot ile Integer sınıfındaki değişkenin int primitive tipindeki değerini bize döndürür.
+     * Integer number = 250;
+     * int unboxing = number.intValue();
+     *
      * Avoid craeting unncecessary Objects
      * Gereksiz Object yaratmamak.Çok fazla kişiye hizmet eden uygulamanız var ise gereksiz obje yaratımı çok ise
      * bellek ve hız konusunda çok sıkıntı yaşayabiliriz.
