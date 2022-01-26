@@ -3,8 +3,6 @@ package com.oguzhan.bektas.efectivejava.item7;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.oguzhan.bektas.item7.Stack;
-
 @RestController
 public class ItemSevenTest3 {
 
