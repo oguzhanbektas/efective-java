@@ -4,9 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
         System.out.println("java news first commit");
-//        Lambda Expressions
-//        Functional Interfaces
-//        Method References
+//        Lambda Expressions    +
+//        Functional Interfaces +
+//        Method References +
 //        Stream API
 //        Optional Class
 //        Concurrency Enhancements
