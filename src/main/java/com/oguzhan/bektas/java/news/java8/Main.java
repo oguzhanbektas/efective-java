@@ -7,6 +7,7 @@ public class Main {
 //        Lambda Expressions    +
 //        Functional Interfaces +
 //        Method References +
+//        Default Method +
 //        Stream API
 //        Optional Class
 //        Concurrency Enhancements
