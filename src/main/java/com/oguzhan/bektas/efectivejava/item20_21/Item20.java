@@ -1,7 +1,7 @@
-package com.oguzhan.bektas.efectivejava.item20;
+package com.oguzhan.bektas.efectivejava.item20_21;
 
-import com.oguzhan.bektas.efectivejava.item20.abstracts.Bird;
-import com.oguzhan.bektas.efectivejava.item20.interfaces.SingerAndWriter;
+import com.oguzhan.bektas.efectivejava.item20_21.abstracts.Bird;
+import com.oguzhan.bektas.efectivejava.item20_21.interfaces.SingerAndWriter;
 
 public class Item20 implements SingerAndWriter {
 
