@@ -1,17 +1,16 @@
-package com.oguzhan.bektas.efectivejava.item27;
+package com.oguzhan.bektas.efectivejava.item27_28;
 
-import java.util.ArrayList;
-import java.util.List;
-
-public class Item27 {
+public class Item27_28 {
     /*
-    Eliminate unchecked warnings.
+    Eliminate unchecked warnings. 27
     Genelde kod yazarken sarı vs görürüz .Bunların önüne nasıl geçeriz.
     Bir cast operation yaptığımız zaman ben bunun doğruluğu kesin bilmiyorum hata olabilir diye warning veriyor
     Sarılığı yok etmek için @SuppressWarnings("unchecked") yazabiliriz.
 
      */
     public static void main(String[] args) {
+        //28
+        //Listleri Dizilere Tercih edin.
 //        Object[] objectArray = new Long[1];
 //        objectArray[0] = "Yazı yazdım";
 //
